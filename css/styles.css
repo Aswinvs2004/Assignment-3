@@ -1,0 +1,80 @@
+body {
+    font-family: 'CandyFont', cursive;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+header {
+    background: linear-gradient(to bottom, #ff33cc, #ff6666);
+    padding: 20px;
+}
+
+h1 {
+    color: #ecf805;
+}
+
+main {
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+p{
+    color: red ;
+}
+
+img{
+    height: 250px;
+}
+
+.candy-info, .candy-images {
+    margin-bottom: 30px;
+}
+
+.candy-images img {
+    max-width: 100%;
+}
+
+footer {
+    background: #ffcc00;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-logo img {
+    max-width: 100px;
+    border-radius: 50%;
+}
+
+.company-info {
+    text-align: left;
+}
+
+.contact-form {
+    text-align: left;
+    max-width: 300px;
+}
+
+label, input, textarea, button {
+    display: block;
+    margin-bottom: 10px;
+    border: none;
+}
+
+button {
+    background-color: #ff33cc;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff0099;
+}
